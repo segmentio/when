@@ -10,7 +10,7 @@
 
 ## Example
 
-```
+```js
 var when = require('when');
 
 when(function () {
