@@ -1,6 +1,6 @@
 {
   "name": "do-when",
-  "version": "1.0.1",
+  "version": "0.0.2",
   "description": "Loop with setInterval until condition is true.",
   "license": "MIT",
   "repository": {
