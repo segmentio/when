@@ -6,7 +6,10 @@
 
 ## Installation
 
-    $ component install segmentio/when
+```sh
+$ npm install do-when
+$ component install segmentio/when
+```
 
 ## Example
 
