@@ -1,0 +1,20 @@
+{
+  "name": "do-when",
+  "version": "1.0.1",
+  "description": "Loop with setInterval until condition is true.",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/segmentio/when.git",
+    "type": "git"
+  },
+  "keywords": [
+    "testing",
+    "test"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
