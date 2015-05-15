@@ -13,6 +13,7 @@
   },
   "development": {
     "component/assert": "*",
+    "ianstormtaylor/sinon": "*",
     "mocha/mocha": "*"
   },
   "scripts": ["index.js"]

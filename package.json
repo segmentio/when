@@ -17,6 +17,7 @@
   "devDependencies": {
     "mocha": "*",
     "phantomjs": "^1.9.16",
+    "sinon": "^1.14.1",
     "zuul": "^3.0.0"
   }
 }
