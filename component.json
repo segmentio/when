@@ -2,7 +2,7 @@
   "name": "do-when",
   "repo": "segmentio/when",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Loop with setInterval until condition is true.",
   "keywords": [
     "testing",
