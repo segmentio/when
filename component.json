@@ -1,16 +1,20 @@
 {
-  "name": "when",
+  "name": "do-when",
   "repo": "segmentio/when",
   "license": "MIT",
   "version": "0.0.2",
   "description": "Loop with setInterval until condition is true.",
-  "keywords": ["testing", "test"],
+  "keywords": [
+    "testing",
+    "test"
+  ],
   "dependencies": {
-    "ianstormtaylor/callback": "*"
+    "ndhoule/next-tick": "*"
   },
   "development": {
     "component/assert": "*",
-    "timoxley/next-tick": "*"
+    "ianstormtaylor/sinon": "*",
+    "mocha/mocha": "*"
   },
   "scripts": ["index.js"]
 }

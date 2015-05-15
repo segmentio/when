@@ -12,9 +12,12 @@
     "test"
   ],
   "dependencies": {
-    "debug": "^2.2.0"
+    "next-tick": "^0.2.2"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "phantomjs": "^1.9.16",
+    "sinon": "^1.14.1",
+    "zuul": "^3.0.0"
   }
 }
