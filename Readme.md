@@ -11,21 +11,19 @@ $ npm install do-when
 $ component install segmentio/when
 ```
 
-## Example
-
-```js
-when(function () {
-  return requirement() === met;
-}, function () {
-  doStuff();
-});
-```
-
 ## API
 
 ### when(condition, callback, [interval=10])
 
 When `condition` returns truthy, call the `callback`. Check every `interval` milliseconds, defaulting to `10`.
+
+```js
+when(function () {
+  return window.someLibrary !== undefined;
+}, function () {
+  doStuff();
+});
+```
 
 ## License
 
