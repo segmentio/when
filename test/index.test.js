@@ -7,10 +7,18 @@ var sinon = require('sinon');
 var when = require('../index');
 
 /**
+ * Prevent global leaks errors caused by sinon#useFakeTimers.
+ *
+ * https://github.com/cjohansen/Sinon.JS/issues/143
+ */
+
+mocha.globals(['setTimeout', 'setImmediate']);
+
+/**
  * Tests.
  */
 
-describe('when', function () {
+describe('when', function() {
   var clock;
 
   before(function() {
